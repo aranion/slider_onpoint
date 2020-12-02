@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* html { overflow-x: hidden; } */
+
+body {
+  font-family: sans-serif;
+}
+
+/* 
+SLIDER 
+*/
+
+.slider {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  background-color: dodgerblue;
+}
+
+.slider_child {
+  /* width: 100%;
+  height: 100%; */
+  min-height: 100vh;
+  scroll-snap-align: start;
+  background-color: green;
+  border: 1px solid indigo;
+}
+
+/* 
+PAGINATION 
+*/
+
+.pagination {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  bottom: 50%;
+}
+
+.pagination_point {
+  width: 27px;
+  height: 26px;
+  border-radius: 13px;
+  background-color: #fff;
+}
+.point_action {
+  background-color: #f78b1f;
+}
