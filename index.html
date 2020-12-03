@@ -1,25 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Слайд</title>
-</head>
-<body>
-  <div class="wrapper">
-    <div class="content">
-      <div class="slider">
-        <div class="slider_child slider_header">header</div>
-        <div class="slider_child slider_center">Center</div>
-        <div class="slider_child slider_bottom">bottom</div>
-        <div class="pagination">
-          <div class="pagination_point point_active"></div>
-          <div class="pagination_point"></div>
-          <div class="pagination_point"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Слайд</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="slider">
+          <div class="slider_child slider_header">
+            <a name="header"></a>
+            <h1 class="slider_header__title">
+              Всегда ли цели терапии СД2 на поверхности?
+            </h1>
+            <div class="slider_header__center">
+              <div class="slider_ellipses ellips_top">
+                <div class="slider_ellipses block block_1"></div>
+                <div class="slider_ellipses block block_2"></div>
+                <div class="slider_ellipses block block_3"></div>
+                <div class="slider_ellipses block block_4"></div>
+              </div>
+              <div class="slider_ellipses ellips_left">
+                <div class="slider_ellipses block block_1"></div>
+                <div class="slider_ellipses block block_2"></div>
+                <div class="slider_ellipses block block_3"></div>
+                <div class="slider_ellipses block block_4"></div>
+              </div>
+              <div class="slider_ellipses ellips_bottom">
+                <div class="slider_ellipses block block_1"></div>
+                <div class="slider_ellipses block block_2"></div>
+                <div class="slider_ellipses block block_3"></div>
+                <div class="slider_ellipses block block_4"></div>
+              </div>
+              <div class="slider_ellipses ellips_right">
+                <div class="slider_ellipses block block_1"></div>
+                <div class="slider_ellipses block block_2"></div>
+                <div class="slider_ellipses block block_3"></div>
+                <div class="slider_ellipses block block_4"></div>
+              </div>
+              <div class="slider_text text_top">Цель по HbA1c</div>
+              <div class="slider_text text_left">Гипогликемия</div>
+              <div class="slider_text text_bottom">Осложнения СД</div>
+              <div class="slider_text text_right">СС риски</div>
+            </div>
+            <div class="slider_next">
+              <div class="slider_next__bg">
+                <div class="slider_next__title"><p>Листайте вниз</p></div>
+                <img
+                  class="slider_next__down"
+                  src="./img/down.png"
+                  alt="down"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="slider_child slider_center">
+            <a name="center"></a>
+              <div class="slider_ice bounce-1"></div>
+              <h2 class="slider_center__title">Основа терапии — патогенез СД2</h2>
+            
+          </div>
+          <div class="slider_child slider_bottom">
+            <a name="bottom"></a>
+            <div class="slider_bottom__child bottom_right">LEFT</div>
+            <div class="slider_bottom__child bottom_center">CENTER</div>
+            <div class="slider_bottom__child bottom_left">RIGHT</div>
+          </div>
+          <div class="pagination pagination_select">
+            <!-- <input class="pagination_point" type="radio" name="pagination" id="pagination_header" checked>
+            <input class="pagination_point" type="radio" name="pagination" id="paginaton_center">
+            <input class="pagination_point" type="radio" name="pagination" id="pagination_bottom"> -->
+            <a href="#header"><div class="pagination_point point_active"></div></a>
+            <a href="#center"><div class="pagination_point"></div></a>
+            <a href="#bottom"><div class="pagination_point"></div></a> 
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
