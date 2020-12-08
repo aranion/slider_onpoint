@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227 37" width="209" height="34">
+	<defs>
+		<image width="229" height="39" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOUAAAAnAQMAAADKJx3qAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAcklEQVR4nOWTsQ2AMAwEE1GkZISMwkpsEEZjFEagTIHyeIE/JDqE21Pk3NtO6W3lk6iINqKLLg+rhodF8nCSdguzdPinou82dQ9/4zI/uGwWfsllJZe4B3ApnVxqJxcJXKInusAaRQyQEScYo4G2gZFS3c9pXVD4KGLTAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Rectangle 11 copy 3" href="#img1" x="-1" y="-1" />
+</svg>
